@@ -1,0 +1,219 @@
+/* ------------------------------------------------
+ Author: Ali Niyazi
+ Email: aliniyazi.email@gmail.com
+ Template Name: vCard
+ version: 1.0.0
+------------------------------------------------ */
+/*fonts*/
+@font-face {
+    font-family: 'Sarb';
+    src: url('../fonts/Sarbaz-Regular.eot');
+    src: url('../fonts/Sarbaz-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Sarbaz-Regular.woff2') format('woff2'),
+    url('../fonts/Sarbaz-Regular.woff') format('woff'),
+    url('../fonts/Sarbaz-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ISDNFa';
+    src: url('../fonts/ISDNFa.eot');
+    src: url('../fonts/ISDNFa.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ISDNFa.woff') format('woff'),
+    url('../fonts/ISDNFa.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'IS';
+    src: url('../fonts/IS.eot');
+    src: url('../fonts/IS.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/IS.woff') format('woff'),
+    url('../fonts/IS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*typography*/
+body, .sidebar__user-name,.tooltip-inner {
+    font-family: 'IS';
+}
+
+h1, h2, h3, h4, h5, h6, .review-item .title, .news-item .title, .header-post .title {
+    font-family: 'sarb';
+}
+
+
+/*generals*/
+html, body {
+    direction: rtl;
+    text-align: right;
+}
+
+.bg-triangles {
+    background-image: url(../images/triangles-top.png), url(../images/triangles-bottom.png);
+    background-position: right top, left bottom;
+}
+
+
+/*styles*/
+/*nav*/
+
+.social__link {
+    margin-left: initial;
+    margin-right: .8rem;
+}
+
+.contacts-block .font-icon {
+    margin-right: initial;
+    margin-left: .875rem;
+}
+
+.btn .font-icon {
+    margin-right: initial;
+    margin-left: .5rem;
+}
+
+.circle-menu {
+    right: initial;
+    left: 0;
+    border-radius: .937rem 50% 50% 50%;
+}
+
+.nav {
+    border-radius: 0 2rem 2rem 0;
+    padding-left: initial;
+    padding-right: 0;
+}
+
+.inner-menu {
+    padding-right: initial;
+    padding-left: 2rem;
+    right: initial;
+    left: 0;
+}
+
+.nav__item {
+    margin-right: initial;
+    margin-left: 3rem;
+}
+
+@media only screen and (max-width: 580px) {
+    .circle-menu {
+        margin-right: initial;
+        margin-left: 1rem;
+    }
+
+    .inner-menu {
+        padding-right: initial;
+        padding-left: 0;
+    }
+}
+
+/*content*/
+.title__separate::before {
+    left: initial;
+    right: 0;
+}
+
+.case-item__icon {
+    margin-right: initial;
+    margin-left: 1.2rem;
+}
+
+.review-item .title {
+
+    margin-left: initial;
+    margin-right: 5.5rem;
+}
+
+.element.style {
+    width: 405px;
+    margin-left: 30px;
+}
+
+.review-item {
+    background-position: left 1.875rem top 1.875rem;
+}
+
+.title-icon {
+    margin-right: initial;
+    margin-left: .5rem;
+}
+
+.timeline__item {
+    border-left: 0;
+    border-right: 1px solid #F0F0F6;
+    padding-left: initial;
+    padding-right: 1.4rem;
+}
+
+.timeline__item::before {
+    left: initial;
+    right: -5px;
+}
+
+.select .placeholder {
+    text-align: right;
+}
+
+@media only screen and (min-width: 769px) {
+    .filter__item {
+        padding-right: initial;
+        padding-left: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .select .placeholder:after {
+        right: initial;
+        left: 2px;
+
+    }
+
+    .select ul li {
+        text-align: right;
+    }
+}
+.block-quote::before {
+    left: initial;
+    right: -3.4rem;
+}
+.block-quote__author {
+    padding-left: initial;
+    padding-right: 3rem;
+}
+.block-quote__author::before {
+    left: initial;
+    right: 0;
+}
+.footer-post__share .font-icon {
+    margin-right: initial;
+    margin-left: .7rem;
+}
+.comment-box .avatar {
+    margin-right: initial;
+    margin-left: 1rem;
+}
+.comment-box .comment-box {
+    margin-left: initial;
+    margin-right: 3rem;
+}
+.comment-form .btn {
+    margin-right: initial;
+    margin-left: .5rem;
+    right: initial;
+    left: 0;
+}
+.comment-form .dropdown {
+    margin-left:initial;
+    margin-right: 1rem;
+}
+.contacts-block {
+    padding-left: initial;
+    padding-right: 0;
+}
