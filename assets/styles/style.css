@@ -338,6 +338,7 @@ select:focus,
 #validator-contact {
     font-size: .89rem;
     margin-top: 1rem;
+    text-align: right;
 }
 
 .form-control::-webkit-input-placeholder {
