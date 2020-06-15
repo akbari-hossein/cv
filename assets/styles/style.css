@@ -2808,6 +2808,14 @@ iframe {
     text-align: center;
 }
 
+.footer a {
+    color: #8697A8;
+}
+
+.footer-copyright {
+    margin-top: 10px;
+}
+
 @media only screen and (max-width: 580px) {
     .footer {
         padding-top: .5rem;
