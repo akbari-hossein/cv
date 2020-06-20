@@ -267,7 +267,7 @@ body.flat {
 }
 
 body.bubble {
-    background: url("../img/background-bubble.jpg") center;
+    background: url("../images/background-bubble.jpg") center;
     background-size: cover;
 }
 
@@ -847,7 +847,7 @@ footer.light ul li a::after {
 /* ------------------------------------- */
 
 .image {
-    background: url("../img/image.jpg") center;
+    background: url("../images/image.jpg") center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
