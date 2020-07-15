@@ -141,21 +141,6 @@
     - General Styles
 ----------------------------------------------------------------- */
 
-.language-botton {
-    background: #0081ff !important;
-    color: #fff !important;
-    padding: 7px;
-    border-radius: 5px;
-}
-
-.footer-links-page {
-    margin-top: 20px;
-}
-
-.footer-languages {
-    margin-top: 10px;
-}
-
 .sidebar.box.pb-0.sticky-column {
     width: 300px;
 }
@@ -2816,6 +2801,21 @@ iframe {
 /* -----------------------------------------------------------------
     - Footer
 ----------------------------------------------------------------- */
+
+.language-botton {
+    background: #0081ff !important;
+    color: #fff !important;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.footer-links-page {
+    margin-top: 20px;
+}
+
+.footer-languages {
+    margin-top: 10px;
+}
 
 .footer {
     color: #8697A8;
