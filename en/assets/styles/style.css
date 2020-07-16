@@ -3034,11 +3034,21 @@ iframe {
     margin-top: 20px;
 }
 
-.footer-languages {
-    margin-top: 10px;
+.footer-links-page a {
+    background: #0081ff !important;
+    color: #fff !important;
+    padding: 5px;
+    border-radius: 5px;
 }
 
-.footer-copyright {
+@media only screen and (max-width: 992px) {
+    .footer-links-page a {
+        background: transparent !important;
+        color: #8697A8 !important;
+    }
+}
+
+.footer-languages {
     margin-top: 10px;
 }
 

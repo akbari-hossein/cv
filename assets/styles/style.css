@@ -2810,7 +2810,21 @@ iframe {
 }
 
 .footer-links-page {
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.footer-links-page a {
+    background: #0081ff !important;
+    color: #fff !important;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+    .footer-links-page a {
+        background: transparent !important;
+        color: #8697A8 !important;
+    }
 }
 
 .footer-languages {
