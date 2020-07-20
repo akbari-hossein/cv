@@ -21681,7 +21681,7 @@ if (_gsScope._gsDefine) { _gsScope._gsQueue.pop()(); }
         var translate = swiper.rtlTranslate ? -swiper.translate : swiper.translate;
         if (swiper.params.controller.by === 'slide') {
           swiper.controller.getInterpolateFunction(c);
-          // i am not sure why the values have to be multiplicated this way, tried to invert the snapGrid
+          // I'm not sure why the values have to be multiplicated this way, tried to invert the snapGrid
           // but it did not work out
           controlledTranslate = -swiper.controller.spline.interpolate(-translate);
         }
