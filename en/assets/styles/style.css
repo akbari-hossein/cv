@@ -167,7 +167,7 @@ html {
     -webkit-overflow-scrolling: touch;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -ms-overflow-x: hidden;
+    /* -ms-overflow-x: hidden; */
 }
 
 body,
@@ -2275,7 +2275,7 @@ iframe {
         margin-bottom: 2rem;
         padding: .2rem 1.2rem .2rem 1.5rem;
         position: relative;
-        vertical-align: middle;
+        /* vertical-align: middle; */
         text-align: left;
         user-select: none;
         width: 100%;
