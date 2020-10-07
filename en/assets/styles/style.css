@@ -141,6 +141,11 @@
     - General Styles
 ----------------------------------------------------------------- */
 
+.pb-0.pb-sm-2 {
+    text-align: justify;
+    line-height: 30px;
+}
+
 .box-custom {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -1929,7 +1934,7 @@ iframe {
     border-radius: 1.25rem;
     height: auto;
     padding: 1.875rem 1.875rem 1.5rem;
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
 }
 
 @media only screen and (max-width: 580px) {
@@ -1943,7 +1948,7 @@ iframe {
 
 .review-item__caption {
     color: #5F6F81;
-    line-height: 1.5;
+    line-height: 26px;
 }
 
 .review-item__caption:last-child {
