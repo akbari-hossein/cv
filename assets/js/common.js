@@ -1,8 +1,7 @@
 /* ------------------------------------------------
- Author: Ali Niyazi
- Email: aliniyazi.email@gmail.com
+ Author: ArtStyles (ArtTemplate)
  Template Name: vCard
- version: 1.0.0
+ version: 1.0.2
 ------------------------------------------------ */
 
 $(document).ready(function() {
