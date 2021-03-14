@@ -63,7 +63,7 @@ body {
 }
 
 .bg-triangles {
-    background-image: url(../images/triangles-top.png), url(../images/triangles-bottom.png);
+    background-image: url(../images/triangles-top.svg), url(../images/triangles-bottom.svg);
     background-position: right top, left bottom;
 }
 

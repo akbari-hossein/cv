@@ -161,7 +161,7 @@ video {
 }
 
 .bg-triangles {
-    background-image: url(../images/triangles-top.png), url(../images/triangles-bottom.png);
+    background-image: url(../images/triangles-top.svg), url(../images/triangles-bottom.svg);
     background-position: right top, left bottom;
     background-repeat: no-repeat;
     background-size: inherit;
@@ -181,7 +181,7 @@ video {
 
 @media only screen and (max-width: 480px) {
     .bg-triangles {
-        background-image: url(../images/triangles-top.png);
+        background-image: url(../images/triangles-top.svg);
         background-position: right top;
         background-repeat: no-repeat;
         background-size: inherit;
