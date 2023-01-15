@@ -1198,6 +1198,7 @@ iframe {
     box-shadow: 0px 24px 40px rgba(134, 151, 168, 0.25);
     padding: 1.875rem;
     position: relative;
+    margin-bottom: 20px;
     transition: box-shadow .3s ease-in-out;
 }
 
@@ -2818,11 +2819,7 @@ iframe {
     border-radius: 5px;
 }
 
-.footer-copyright {
-    margin-top: 20px;
-}
-
-.donate-botton {
+.blog-botton {
     background: #0081ff !important;
     color: #fff !important;
     padding: 7px;
@@ -2830,14 +2827,6 @@ iframe {
 }
 
 .down-bottons {
-    text-align: center;
-}
-
-.footer {
-    color: #8697A8;
-    font-size: .875rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     text-align: center;
 }
 
