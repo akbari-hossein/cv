@@ -73,6 +73,21 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo:400,400i,500,500i,600,600i,700,700i&amp;display=swap");
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,900&amp;display=swap");
 @import url(../icons/icomoon.css);
+/* Vazirmatn font for Persian (Farsi) text */
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('../fonts/Vazirmatn-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('../fonts/Vazirmatn-Medium.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 .icon {
     background-size: contain;
     background-repeat: no-repeat;
@@ -191,7 +206,7 @@ html {
 body {
     background-color: #F5F6F7;
     color: #44566C;
-    font-family: "Archivo", sans-serif;
+    font-family: "Archivo", "Vazirmatn", sans-serif;
     font-weight: 400;
     font-size: .9375rem;
     line-height: 1.7;
@@ -608,8 +623,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: "Archivo", sans-serif;
+h6,
+span {
+    font-family: "Archivo", "Vazirmatn", sans-serif;
     font-weight: 700;
     line-height: 1.3;
 }
